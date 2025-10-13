@@ -1,71 +1,86 @@
-# Product API
-Um sistema completo para gerenciamento de produtos, desenvolvido com Spring Boot e React.js. Ele oferece operações CRUD de forma simples e eficiente, por meio de uma interface amigável, interativa e responsiva.
-<br/>
-<br/>
-O objetivo deste projeto foi compreender a comunicação entre as partes do sistema (Backend e Frontend), além de colocar em prática habilidades de estilização e responsividade utilizando o Bootstrap, que se mostra uma ferramenta interessante para aumentar a velocidade do desenvolvimento.
-<br/>
-<br/>
+<p align="center">
+  <a href="https://ezcoder.dev.br/"><img src="../product-service-springboot-react/docs/product.logo.png"></a>
+  <h2 align="center">Product Management</h2>
+  <p align="center">Aplicação Full Stack Web para gerenciamento de produtos.<p>
+</p>
 
-## Tecnologias utilizadas</h2>
-<div align="left"> 
+<h3 align="center">Descrição</h3>
+
+<p align="center">
+O Product Management se trata de uma solução completa para o gerenciamento de produtos, fornecedores e clientes. Desenvolvido com tecnologias como Sspring Boot (Java) e React (Typescript), oferecendo robustes e escalabilidade com uma interface profissional e intuitiva.
+</p>
+
+<h3 align="center">Tecnologias </h3>
+
+<div align="center"> 
     <div> 
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" /> 
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" /> 
-        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white" alt="Swagger" />
+        <img src="https://img.shields.io/badge/Spring-6DB33F.svg?style=for-the-badge&logo=Spring&logoColor=white" alt="Spring" />
+        <img src="https://img.shields.io/badge/OpenJDK-000000.svg?style=for-the-badge&logo=OpenJDK&logoColor=white" alt="Open JDK" />  
+        <img src="https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black" alt="Swagger" />
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> 
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> 
-        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" /> 
+        <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" alt="Typescript" /> 
+        <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" alt="TailwindCSS" /> 
+        <img src="https://img.shields.io/badge/Radix%20UI-161618.svg?style=for-the-badge&logo=Radix-UI&logoColor=white" alt="Radix" />
+        <img src="https://img.shields.io/badge/shadcn/ui-000000.svg?style=for-the-badge&logo=shadcn/ui&logoColor=white" alt="Shadcn/ui" /> 
     </div> 
 </div>
-<br/>
 
-## <img width="20" src="https://user-images.githubusercontent.com/25181517/186711335-a3729606-5a78-4496-9a36-06efcc74f800.png" alt="Swagger" title="Swagger"/> Documentação da API 
-A documentação feita com Swagger (Open API), proporciona uma interface interativa para explorar e também testar todos os endpoints disponiveis na aplicação.
-<br><br>
+<h3 align="center">Documentação </h3>
+
+<p align="center">
+Swagger é um conjunto de ferramentas de código aberto que permite projetar, construir, documentar e consumir APIs RESTful com base na especificação OpenAPI.
+</p>
 
 <div align="center">
-    <img src="https://github.com/Ki3lMigu3l/Spring-React-Produto-CRUD/blob/main/frontend/readme/Documenta%C3%A7%C3%A3o%20com%20Swagger.png" alt="Interface do Swagger" width="650"/>
+    <img src="../product-service-springboot-react/docs/swagger.png" width="650">
 </div>
-<br>
 
-## <img width="20" src="https://user-images.githubusercontent.com/25181517/183891303-41f257f8-6b3d-487c-aa56-c497b880d0fb.png" alt="Spring Boot" title="Spring Boot"/> Produto Controller
-Utilizando as anotações @Operation e @ApiResponse, conseguimos adicionar mais clareza às descrições dos métodos no controlador, melhorando a documentação da API e facilitando a compreensão das funcionalidades.
-<br><br>
+<h3 align="center">Swagger e Controller</h3>
+
+<p align="center">
+Usamos as anotações @Operation e @ApiResponse, para aumentar a clareza nas descrições de cada endpoint do nosso controller, melhorando a documentação da API e facilitando a compreensão das funcionalidades.
+</p>
+
 <div align="center">
-   <img src="https://github.com/Ki3lMigu3l/Spring-React-Produto-CRUD/blob/main/frontend/readme/carbon-swaggeroperation.png" alt="Operation e APIResponse: Swagger 3" width="650"/>
+   <img src="../product-service-springboot-react/docs/controller.png" alt="Operation e APIResponse: Swagger 3" width="650"/>
 </div>
-<br>
 
-## <img width="20" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/> Frontend
-O React.js é uma biblioteca javascript desenvolvida pelo Facebook voltada para a criação de interfaces de usuário (UI). Ele é baseado em componentes reutilizáveis, que permitem construir aplicações de forma modular, escalável e eficiente.
+<h3 align="center">Frontend</h3>
 
-<br>
-    
-**Tela para adicionar Produtos**: Uma interface que permite ao usuário inserir um novo produto no banco de dados.
+<p align="center">
+O React é uma biblioteca frontend JavaScript desenvolvido pelo Facebook, com o foco em criar UI (interface de usuário) em páginas. Ele é baseado em componentes reutilizáveis, que permitem construir aplicações de forma modular, escalável e eficiente.
+</p>
+
+<h4 align="center">Login Page</h4>
+
+<p align="center">
+Página de Login com proteção de rotas.
+</p>
+
 <div align="center">
-   <img src="https://github.com/Ki3lMigu3l/Spring-React-Produto-CRUD/blob/main/frontend/readme/adicionando-produto.png" alt="Frontend: adicionar produto" width="650"/>
+   <img src="../product-service-springboot-react/docs/login.page.png" alt="Frontend: adicionar produto" width="650"/>
+</div>
+
+<h4 align="center">Home Page</h4>
+
+<p align="center">
+Página inicial, onde é possível navegar entre as funcionalidades da aplicação.
+</p>
+
+<div align="center">
+   <img src="../product-service-springboot-react/docs/home.page.png" alt="Frontend: adicionar produto" width="650"/>
+</div>
+
+<h4 align="center">Adicionando um Produto</h4>
+
+<p align="center">
+Uma interface que permite ao usuário inserir um novo produto no banco de dados.
+</p>
+
+<div align="center">
+   <img src="../product-service-springboot-react/docs/add.new.product.png" alt="Frontend: adicionar produto" width="650"/>
 </div>
 <br />
 
-**Dashboard em Tabela**: Uma visualização clara e organizada dos produtos cadastrados, exibindo informações como o nome e preço.
-<div align="center">
-    <img src="https://github.com/Ki3lMigu3l/Spring-React-Produto-CRUD/blob/main/frontend/readme/dashboard-produtos.png" alt="Frontend: dashboard" width="650"/>
-</div>
-<br />
-
-
-**Editar Produtos**: É possível realizar ações como atualziar e deletar algum produto da base de dados.
-<div align="center">
-    <img src="https://github.com/Ki3lMigu3l/Spring-React-Produto-CRUD/blob/main/frontend/readme/salvando-produto.png" alt="Frontend: operações update e delete" width="650"/>
-</div>
-
-<br />
-
- 
-## Conclusão
-
-O desenvolvimento do Product API proporcionou uma experiência prática completa, envolvendo a construção de um sistema full stack com Spring Boot no backend e React.js no frontend. A escolha dessas tecnologias se mostrou estratégica: o Spring Boot garantiu robustez, padronização e facilidade na criação dos serviços REST, enquanto o React.js ofereceu praticidade e eficiência na implementação de interfaces dinâmicas e responsivas, graças ao seu modelo baseado em componentes reutilizáveis.
-
-Além disso, a integração com o Swagger foi essencial para documentar e validar a API, proporcionando maior clareza e confiabilidade na comunicação entre cliente e servidor. O uso do Bootstrap também contribuiu para acelerar o processo de estilização, resultando em uma interface amigável e visualmente organizada.
-
-Com isso, o projeto não apenas consolidou o entendimento sobre a interação entre backend e frontend, mas também reforçou boas práticas de desenvolvimento, documentação e usabilidade. Em suma, o Product API representa um passo significativo no aprimoramento das habilidades técnicas, reunindo conceitos fundamentais de arquitetura de software, desenvolvimento web e integração de sistemas em uma aplicação funcional e escalável.
+<h3 align="center">Conclusão</h3> 
+<p align="center"> O <strong>Product Management</strong> demonstra a integração eficaz entre <strong>Spring Boot</strong> e <strong>React</strong> na criação de uma aplicação web moderna, robusta e escalável para o gerenciamento de produtos, fornecedores e clientes. A combinação de um backend seguro e bem documentado, com um frontend responsivo e intuitivo, proporciona uma experiência completa ao usuário e uma base sólida para futuras expansões do sistema. Este projeto consolida boas práticas de desenvolvimento Full Stack, explorando tecnologias atuais e abordagens profissionais voltadas à performance, organização e usabilidade. </p>
