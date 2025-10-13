@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ezcoder.dev.br/"><img src="../product-service-springboot-react/docs/product.logo.png"></a>
+  <a href="https://ezcoder.dev.br/"><img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/product.logo.png"></a>
   <h2 align="center">Product Management</h2>
   <p align="center">Aplicação Full Stack Web para gerenciamento de produtos.<p>
 </p>
@@ -32,7 +32,7 @@ Swagger é um conjunto de ferramentas de código aberto que permite projetar, co
 </p>
 
 <div align="center">
-    <img src="../product-service-springboot-react/docs/swagger.png" width="650">
+    <img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/swagger.png" width="650">
 </div>
 
 <h3 align="center">Swagger e Controller</h3>
@@ -42,7 +42,7 @@ Usamos as anotações @Operation e @ApiResponse, para aumentar a clareza nas des
 </p>
 
 <div align="center">
-   <img src="../product-service-springboot-react/docs/controller.png" alt="Operation e APIResponse: Swagger 3" width="650"/>
+   <img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/controller.png" alt="Operation e APIResponse: Swagger 3" width="650"/>
 </div>
 
 <h3 align="center">Frontend</h3>
@@ -58,7 +58,7 @@ Página de Login com proteção de rotas.
 </p>
 
 <div align="center">
-   <img src="../product-service-springboot-react/docs/login.page.png" alt="Frontend: adicionar produto" width="650"/>
+   <img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/login.page.png" alt="Frontend: adicionar produto" width="650"/>
 </div>
 
 <h4 align="center">Home Page</h4>
@@ -68,7 +68,7 @@ Página inicial, onde é possível navegar entre as funcionalidades da aplicaç�
 </p>
 
 <div align="center">
-   <img src="../product-service-springboot-react/docs/home.page.png" alt="Frontend: adicionar produto" width="650"/>
+   <img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/home.page.png" alt="Frontend: adicionar produto" width="650"/>
 </div>
 
 <h4 align="center">Adicionando um Produto</h4>
@@ -78,7 +78,7 @@ Uma interface que permite ao usuário inserir um novo produto no banco de dados.
 </p>
 
 <div align="center">
-   <img src="../product-service-springboot-react/docs/add.new.product.png" alt="Frontend: adicionar produto" width="650"/>
+   <img src="https://github.com/Ki3lMigu3l/product-service-springboot-react/blob/main/docs/add.new.product.png" alt="Frontend: adicionar produto" width="650"/>
 </div>
 <br />
 
